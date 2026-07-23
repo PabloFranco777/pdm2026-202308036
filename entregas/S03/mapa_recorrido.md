@@ -4,7 +4,7 @@
 
 **Estudiante (carnet):** Adrian Giron (202308036)  **Entrevistado (alias):** Diego
 
-**Job que intenta lograr:** Validar especificaciones y disponibilidad exacta de forma autónoma para no perder tiempo de trabajo.
+**Job que intenta lograr:** Asegurar los componentes correctos sin desperdiciar horas valiosas en esperas o tráfico.
 
 ---
 
@@ -28,7 +28,6 @@
     │       \                                       │
 😞  └────────\─────── F3 ─────────── F4 ────────────┘
                       (VALLE)
-```
 
 ## Dolores anclados a evidencia (mínimo 3)
 
