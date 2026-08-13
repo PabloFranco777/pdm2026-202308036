@@ -1,0 +1,7 @@
+# Insights: Compra de tecnología y equipo
+
+1. **[Brenda]** necesita **[asesoría técnica hiper-especializada o especificaciones muy detalladas]** porque **[los programas de ingeniería requieren hardware específico que no se puede comprar a ciegas]**, y hoy lo resuelve con **[llevar su propio software en un USB a la tienda para probar el equipo ella misma]** que le falla en **[que es un proceso tedioso y le genera gran desconfianza hacia los vendedores]**.
+
+2. **[Diego]** necesita **[autogestionar todo su proceso de compra con información en tiempo real]** porque **[su tiempo es dinero y no puede depender de respuestas lentas para atender a sus propios clientes]**, y hoy lo resuelve con **[intentar usar WhatsApp corporativo y terminar yendo físicamente]** que le falla en **[que lo dejan en visto por horas y de todos modos pierde su mañana en el tráfico]**.
+
+3. **[Los estudiantes y técnicos]** necesitan **[canales digitales que no requieran intervención humana para ventas técnicas]** porque **[los vendedores físicos y de chat saben menos de hardware que los propios clientes]**, y hoy lo resuelven con **[buscar todo en foros y YouTube antes de acercarse a una tienda guatemalteca]** que le falla en **[que los catálogos web locales casi nunca coinciden con la realidad del inventario, forzando la visita presencial]**.
