@@ -12,8 +12,8 @@ class MarcadorDeportivo extends StatefulWidget {
 }
 
 class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
-  int puntosA = 0;
-  int puntosB = 0;
+  int puntosXela = 0;
+  int puntosQuicheFc = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -21,11 +21,11 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
     Color colorA = Colors.grey;
     Color colorB = Colors.grey;
 
-    if (puntosA > puntosB) {
-      mensaje = "Va ganando Equipo A";
+    if (puntosXela > puntosQuicheFc) {
+      mensaje = "Va ganando Xela";
       colorA = Colors.green;
-    } else if (puntosB > puntosA) {
-      mensaje = "Va ganando Equipo B";
+    } else if (puntosQuicheFc > puntosXela) {
+      mensaje = "Va ganando Quiche FC";
       colorB = Colors.green;
     }
 
@@ -42,14 +42,14 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
                   color: colorA,
                   child: Column(
                     children: [
-                      const Text("Equipo A", style: TextStyle(fontSize: 20)),
-                      Text(puntosA.toString(), style: const TextStyle(fontSize: 40)),
+                      const Text("Xela", style: TextStyle(fontSize: 20)),
+                      Text(puntosXela.toString(), style: const TextStyle(fontSize: 40)),
                       Row(
                         children: [
                           ElevatedButton(
                             onPressed: () {
                               setState(() {
-                                if (puntosA > 0) puntosA--;
+                                if (puntosXela > 0) puntosXela--;
                               });
                             },
                             child: const Text("-1"),
@@ -57,7 +57,7 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
                           ElevatedButton(
                             onPressed: () {
                               setState(() {
-                                puntosA++;
+                                puntosXela++;
                               });
                             },
                             child: const Text("+1"),
@@ -74,14 +74,14 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
                   color: colorB,
                   child: Column(
                     children: [
-                      const Text("Equipo B", style: TextStyle(fontSize: 20)),
-                      Text(puntosB.toString(), style: const TextStyle(fontSize: 40)),
+                      const Text("Quiche FC", style: TextStyle(fontSize: 20)),
+                      Text(puntosQuicheFc.toString(), style: const TextStyle(fontSize: 40)),
                       Row(
                         children: [
                           ElevatedButton(
                             onPressed: () {
                               setState(() {
-                                if (puntosB > 0) puntosB--;
+                                if (puntosQuicheFc > 0) puntosQuicheFc--;
                               });
                             },
                             child: const Text("-1"),
@@ -89,7 +89,7 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
                           ElevatedButton(
                             onPressed: () {
                               setState(() {
-                                puntosB++;
+                                puntosQuicheFc++;
                               });
                             },
                             child: const Text("+1"),
@@ -105,8 +105,8 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
           ElevatedButton(
             onPressed: () {
               setState(() {
-                puntosA = 0;
-                puntosB = 0;
+                puntosXela = 0;
+                puntosQuicheFc = 0;
               });
             },
             child: const Text("Reiniciar"),
