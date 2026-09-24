@@ -36,7 +36,7 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
           Text(mensaje, style: const TextStyle(fontSize: 25)),
           Row(
             children: [
-              // EQUIPO A (hecho a la fuerza bruta, sin diseño extra)
+
               Expanded(
                 child: Container(
                   color: colorA,
@@ -68,7 +68,8 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
                   ),
                 ),
               ),
-              // EQUIPO B (código repetido exactamente igual, como un principiante)
+
+
               Expanded(
                 child: Container(
                   color: colorB,
@@ -102,6 +103,8 @@ class _MarcadorDeportivoState extends State<MarcadorDeportivo> {
               ),
             ],
           ),
+
+          
           ElevatedButton(
             onPressed: () {
               setState(() {
