@@ -1,17 +1,17 @@
-# marcador
+# Laboratorio Marcador Deportivo
 
-A new Flutter project.
+## Capturas de pantalla
 
-## Getting Started
+### Estado de Empate
+![Empate](empate.png)
 
-This project is a starting point for a Flutter application.
+### Equipo Ganando
+![Ganando](ganando.png)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Pregunta Técnica
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**¿Qué hace `setState` cuando presiona un botón y qué ocurriría si cambia los puntos sin llamarlo?**
+
+`setState` le avisa a Flutter que una variable del estado cambió y obliga a la pantalla a redibujarse (`build`) para mostrar el nuevo valor. Si cambiamos los puntos sin usar `setState`, la variable en memoria sí suma o resta correctamente, pero la pantalla se quedaría congelada mostrando el número anterior porque nunca se le notificó que debía actualizarse.
